@@ -40,7 +40,7 @@ main {
  .new-contact {}
 
  .new-contact__form {
-    font-size: 2rem; 
+    font-size: 2rem;
     padding: 1em 0;
  }
 
@@ -93,11 +93,26 @@ main {
 
 @media screen and (min-width: 900px) {
   html {
-    font-size: 15px;
+    font-size: 10px;
+  }
+
+  main {
+    height: 100vh;
   }
 
   .container {
-    max-width: 80%;
+    max-width: 50%;
   }
+
+  .new-contact__input {
+    font-size: inherit;
+    background-color: var(--medium-grey);
+    color: var(--light-grey);
+    border-radius: 5px;
+    padding: 0.2em;
+    margin-top: 0.4em;
+    transition: all 0.5s;
+  }
+
 }
 
